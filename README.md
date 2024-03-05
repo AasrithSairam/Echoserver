@@ -20,9 +20,8 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
+Server Side:
 ```
-#Server Side:
-
 import socket
 
 
@@ -42,8 +41,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 break
             conn.sendall(data)
 
-
-#Client Side:
+```
+Client Side:
+```
 import socket
 
 
@@ -60,9 +60,15 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 print(f"Received {data!r}")
 ```
 ## OUTPUT:
+
 Server Output:
+
 ![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/87ee3828-2ef1-45dc-accb-1b8267192a2d)
+
+
+
 Client Output:
+
 ![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/4e8d7b7d-79ba-44fc-9d49-00c36b2882d0)
 ## RESULT:
 The program is executed successfully
