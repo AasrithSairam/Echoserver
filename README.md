@@ -20,8 +20,9 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
-Server Side:
 ```
+#Server Side:
+
 import socket
 
 
@@ -40,9 +41,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             if not data:
                 break
             conn.sendall(data)
-```
-Client Side:
-```
+
+
+#Client Side:
 import socket
 
 
