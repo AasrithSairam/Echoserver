@@ -63,7 +63,8 @@ print(f"Received {data!r}")
 
 Server Output:
 
-![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/87ee3828-2ef1-45dc-accb-1b8267192a2d)
+![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/115f0bbc-3101-4335-988d-879e58facbe2)
+
 
 
 
