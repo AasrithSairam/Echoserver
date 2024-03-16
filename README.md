@@ -69,7 +69,8 @@ Server Output:
 
 Client Output:
 
-![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/a5b783d7-be70-4b03-8b56-32e224faeaf5)
+![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/e244a0a5-f27b-4589-b5d9-7ac9173373cf)
+
 
 ## RESULT:
 The program is executed successfully
