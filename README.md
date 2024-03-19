@@ -23,12 +23,8 @@ Testing the server and client
 Server Side:
 ```
 import socket
-
-
 HOST = "127.0.0.1"  # Standard loopback interface address (localhost)
 PORT = 65432  # Port to listen on (non-privileged ports are > 1023)
-
-
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
     s.listen()
@@ -45,32 +41,28 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 Client Side:
 ```
 import socket
-
-
 HOST = "127.0.0.1"  # The server's hostname or IP address
 PORT = 65432  # The port used by the server
-
-
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     s.sendall(b"Hello, world")
     data = s.recv(1024)
-
-
 print(f"Received {data!r}")
 ```
 ## OUTPUT:
 
 Server Output:
+![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/512108ea-27b9-4f2c-b6e6-53e4827b6734)
 
-![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/115f0bbc-3101-4335-988d-879e58facbe2)
+
 
 
 
 
 Client Output:
 
-![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/e244a0a5-f27b-4589-b5d9-7ac9173373cf)
+![image](https://github.com/AasrithSairam/Echoserver/assets/139331438/ad03835f-09e0-41e0-a814-9d02f56d23bd)
+
 
 
 ## RESULT:
